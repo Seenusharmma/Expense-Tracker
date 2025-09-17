@@ -14,7 +14,7 @@ const ContactPage = () => {
           <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 leading-tight'>
             Contact{' '}
             <span className='bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent'>
-              ExpenseTracker AI
+              ExpenseTracker
             </span>
           </h1>
           <p className='text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed px-2 sm:px-0'>
@@ -33,7 +33,7 @@ const ContactPage = () => {
               <div className='absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-200'></div>
             </a>
             <a
-              href='tel:+11234567890'
+              href='tel:916299616299'
               className='group border-2 border-emerald-500/20 dark:border-emerald-400/20 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold transition-all duration-200 backdrop-blur-sm flex items-center justify-center gap-2'
             >
               Call Us
@@ -128,9 +128,9 @@ const ContactPage = () => {
                   partnership discussions.
                 </p>
                 <div className='text-emerald-600 dark:text-emerald-400 font-medium text-sm sm:text-base'>
-                  123 AI Innovation St
+                  Bhubaneswar 
                   <br />
-                  Tech City, USA
+                  Odisa, India
                 </div>
               </div>
             </div>

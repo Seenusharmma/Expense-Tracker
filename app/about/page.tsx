@@ -15,7 +15,7 @@ const AboutPage = () => {
           <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 leading-tight'>
             About{' '}
             <span className='bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent'>
-              ExpenseTracker AI
+              ExpenseTracker
             </span>
           </h1>
           <p className='text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed px-2 sm:px-0'>
@@ -99,7 +99,7 @@ const AboutPage = () => {
             <h2 className='text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100'>
               Why Choose{' '}
               <span className='text-emerald-600 dark:text-emerald-400'>
-                ExpenseTracker AI?
+                ExpenseTracker?
               </span>
             </h2>
             <p className='text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto'>
@@ -215,7 +215,7 @@ const AboutPage = () => {
                 <div className='flex items-center gap-4'>
                   <div className='w-3 h-3 bg-emerald-500 dark:bg-emerald-400 rounded-full'></div>
                   <div className='text-gray-900 dark:text-gray-100 font-medium'>
-                    Founded in 2024
+                    Founded in 2025
                   </div>
                 </div>
                 <div className='flex items-center gap-4'>

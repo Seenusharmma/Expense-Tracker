@@ -10,10 +10,10 @@ interface RawInsight {
 
 const openai = new OpenAI({
   baseURL: 'https://openrouter.ai/api/v1',
-  apiKey: process.env.OPENROUTER_API_KEY || process.env.OPENAI_API_KEY,
+  apiKey: process.env.OPENROUTER_API_KEY ,
   defaultHeaders: {
     'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
-    'X-Title': 'ExpenseTracker',
+    'X-Title': 'ExpenseTrackerAi',
   },
 });
 
@@ -68,7 +68,7 @@ export async function generateExpenseInsights(
     Return only valid JSON array, no additional text.`;
 
     const completion = await openai.chat.completions.create({
-      model: 'deepseek/deepseek-chat-v3-0324:free',
+      model: 'deepseek/deepseek-r1-0528:free',
       messages: [
         {
           role: 'system',
@@ -138,7 +138,7 @@ export async function generateExpenseInsights(
 export async function categorizeExpense(description: string): Promise<string> {
   try {
     const completion = await openai.chat.completions.create({
-      model: 'deepseek/deepseek-chat-v3-0324:free',
+      model: 'deepseek/deepseek-r1:free',
       messages: [
         {
           role: 'system',
